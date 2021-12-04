@@ -7,5 +7,5 @@ git clone https://github.com/Aseel577/EvilRedirect.git
 cd EvilRedirect
 ```
 ## Usage & Example
-![alt text](https://github.com/Aseel577/EvilRedirect/blob/main/Image%26Gifs/options.png)
+![alt text](Image%26Gifs/options.png)
 
