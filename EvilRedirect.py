@@ -54,7 +54,7 @@ if args.payload:
     with open(f"{args.payload}", "r", encoding='utf-8') as payload_file:
         payloads = [p.rstrip() for p in payload_file]
 else:
-    with open("payload_list/payloads.txt", "r", encoding='utf-8') as payload_file:
+    with open("payload_files/payloads.txt", "r", encoding='utf-8') as payload_file:
         payloads = [p.rstrip() for p in payload_file]
 
 def fuzzing(host):
@@ -74,7 +74,7 @@ def fuzzing(host):
 if args.parameter:
     suspect_or_not()
     if args.parameter == "default":
-        with open("payload_list/parameter.txt", "r") as parameter_list:
+        with open("payload_files/parameter.txt", "r") as parameter_list:
             parameters = [parm.rstrip() for parm in parameter_list]
     elif args.parameter:
         with open(f"{args.parameter}", "r", encoding='utf-8') as parameter_list:
@@ -105,7 +105,3 @@ elif args.file:
             parser.print_help()
 else:
     parser.print_help()
-
-
-
-
