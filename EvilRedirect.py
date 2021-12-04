@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description="Redirection check")
 parser.add_argument("--host", type=str, help="Insert victim host")
 parser.add_argument("-p", "--payload", metavar='', help="Set payload list file", default=False)
 parser.add_argument("-pr", "--parameter", metavar='', help="Insert file that contain common parameter,"
-                                                           " for common parameter [-pr default]", default=False)
+                                                           " for common parameter default is [-pr default]", default=False)
 parser.add_argument("-T", "--time", type=int, metavar='', help="Time delay between each request (default is 3 [-T 3])"
                                                                " bigger is faster, maximum is 5", default=3)
 parser.add_argument("-v", "--verbose", action='store_true', help="Set to verbose mode")
@@ -17,15 +17,15 @@ args = parser.parse_args()
 host = args.host
 time = args.time
 if time == 5:
-    second = 0.1
+    second = 0
 elif time == 4:
-    second = 0.2
+    second = 0.01
 elif time == 2:
-    second = 0.4
+    second = 0.03
 elif time == 1:
-    second = 0.5
+    second = 0.04
 else:
-    second = 0.3
+    second = 0.02
 
 try:
     if host[-1] == "/":
