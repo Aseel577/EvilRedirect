@@ -18,6 +18,7 @@ python3 EvilRedirect.py --host 127.0.0.1?redirect=FUZZ
 First lets creat a file that has multiple hosts for example:
 ```
 cat hosts.txt
+
 http://127.0.0.1?redirect=FUZZ
 http://myfakesite.com/redirect.php?redirect=FUZZ
 ```
