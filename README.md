@@ -27,4 +27,5 @@ python3 EvilRedirect.py -f hosts.txt
 ```
 ![alt text](Image%26Gifs/multiple_host.png)
 
-# [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40MrSrB0T)](https://twitter.com/MrSrB0T/)
+
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bukotsunikki.svg?style=social&label=Follow%20%40MrSrB0T)](https://twitter.com/MrSrB0T/)
